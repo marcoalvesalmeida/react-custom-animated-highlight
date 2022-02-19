@@ -10,7 +10,7 @@ Use o gerenciador de pacotes [yarn](https://yarnpkg.com/) para instalar @marcoal
 yarn add @marcoalvesalmeida/react-custom-animated-highlight
 ```
 
-## Usage
+## Como Usar
 
 ```javascript
 import CustomAnimatedHighlight from '@marcoalvesalmeida/react-custom-animated-highlight';
@@ -21,5 +21,5 @@ const App = () => (
 );
 ```
 
-## License
+## Licença
 [MIT](https://choosealicense.com/licenses/mit/)
