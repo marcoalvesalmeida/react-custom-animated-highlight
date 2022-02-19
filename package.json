@@ -1,6 +1,6 @@
 {
   "name": "@marcoalvesalmeida/react-custom-animated-highlight",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Use essa biblioteca para realçar uma informação importante no seu projeto.",
   "main": "dist/index.js",
   "module": "dist/index.js",
