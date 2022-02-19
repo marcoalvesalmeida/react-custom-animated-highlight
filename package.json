@@ -1,0 +1,35 @@
+{
+  "name": "@marcoalvesalmeida/react-custom-animated-highlight",
+  "version": "1.0.0",
+  "description": "Use essa biblioteca para realçar uma informação importante no seu projeto.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "author": "Marco Almeida",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "webpack serve --progress --hot --port 8080",
+    "build": "cross-env NODE_ENV=production babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "styled-components": "^5.3.3"
+  }
+}
