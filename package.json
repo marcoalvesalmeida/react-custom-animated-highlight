@@ -1,15 +1,27 @@
 {
   "name": "@marcoalvesalmeida/react-custom-animated-highlight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use essa biblioteca para realçar uma informação importante no seu projeto.",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "author": "Marco Almeida",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcoalvesalmeida/react-custom-animated-highlight"
+  },
   "license": "MIT",
   "files": [
     "dist",
     "README.md"
   ],
+  "keywords": [
+    "react",
+    "react-custom-animated-highlight",
+    "custom-animated-highlight",
+    "animated-highlight",
+    "highlight",
+    "animated"
+  ], 
   "scripts": {
     "start": "webpack serve --progress --hot --port 8080",
     "build": "cross-env NODE_ENV=production babel src --out-dir dist"
